@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+/* * {
+    border: 1px red solid;
+} */
+
+.background-color {
+    background-color: rgb(131, 211, 137)
+}
+
+.no-margin-or-padding {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.nav-bar {
+    height: 10vh;
+    background-color: #707070; 
+}
+
+.nav-link-container {
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 16%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link {
+    padding-top: 4vh;
+    height: 2vh;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.logo {
+    float: left;
+    height: 80%;
+    width: 20%;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    height: 100%;
+    width: 70%;
+    padding-top: 1vh;
+    padding-left: 1vh;
+}
